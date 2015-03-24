@@ -1,0 +1,6 @@
+framework module BHBKit {
+  umbrella header "BHBKit.h"
+
+  export *
+  module * { export * }
+}

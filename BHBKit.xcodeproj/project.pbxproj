@@ -6,10 +6,45 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		F7B7F3681AC1341F00830BE3 /* script */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F7B7F3691AC1341F00830BE3 /* Build configuration list for PBXAggregateTarget "script" */;
+			buildPhases = (
+				F7B7F36C1AC1342900830BE3 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = script;
+			productName = script;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		F7B7F3241AC12DDF00830BE3 /* BHBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B7F3231AC12DDF00830BE3 /* BHBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7B7F32A1AC12DDF00830BE3 /* BHBKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B7F31E1AC12DDF00830BE3 /* BHBKit.framework */; };
 		F7B7F3311AC12DDF00830BE3 /* BHBKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B7F3301AC12DDF00830BE3 /* BHBKitTests.m */; };
+		F7B7F3521AC131D600830BE3 /* NSDate+BHB.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B7F33B1AC131D600830BE3 /* NSDate+BHB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B7F3531AC131D600830BE3 /* NSDate+BHB.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B7F33C1AC131D600830BE3 /* NSDate+BHB.m */; };
+		F7B7F3541AC131D600830BE3 /* NSJSONSerialization+BHB.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B7F33D1AC131D600830BE3 /* NSJSONSerialization+BHB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B7F3551AC131D600830BE3 /* NSJSONSerialization+BHB.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B7F33E1AC131D600830BE3 /* NSJSONSerialization+BHB.m */; };
+		F7B7F3561AC131D600830BE3 /* NSString+BHB.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B7F33F1AC131D600830BE3 /* NSString+BHB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B7F3571AC131D600830BE3 /* NSString+BHB.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B7F3401AC131D600830BE3 /* NSString+BHB.m */; };
+		F7B7F3581AC131D600830BE3 /* UIBarButtonItem+BHB.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B7F3411AC131D600830BE3 /* UIBarButtonItem+BHB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B7F3591AC131D600830BE3 /* UIBarButtonItem+BHB.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B7F3421AC131D600830BE3 /* UIBarButtonItem+BHB.m */; };
+		F7B7F35A1AC131D600830BE3 /* UIButton+BHB.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B7F3431AC131D600830BE3 /* UIButton+BHB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B7F35B1AC131D600830BE3 /* UIButton+BHB.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B7F3441AC131D600830BE3 /* UIButton+BHB.m */; };
+		F7B7F35C1AC131D600830BE3 /* UIImage+BHB.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B7F3451AC131D600830BE3 /* UIImage+BHB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B7F35D1AC131D600830BE3 /* UIImage+BHB.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B7F3461AC131D600830BE3 /* UIImage+BHB.m */; };
+		F7B7F35E1AC131D600830BE3 /* UIScreen+BHB.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B7F3471AC131D600830BE3 /* UIScreen+BHB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B7F35F1AC131D600830BE3 /* UIScreen+BHB.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B7F3481AC131D600830BE3 /* UIScreen+BHB.m */; };
+		F7B7F3601AC131D600830BE3 /* UITextField+BHB.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B7F3491AC131D600830BE3 /* UITextField+BHB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B7F3611AC131D600830BE3 /* UITextField+BHB.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B7F34A1AC131D600830BE3 /* UITextField+BHB.m */; };
+		F7B7F3621AC131D600830BE3 /* UIView+AutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B7F34B1AC131D600830BE3 /* UIView+AutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B7F3631AC131D600830BE3 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B7F34C1AC131D600830BE3 /* UIView+AutoLayout.m */; };
+		F7B7F3641AC131D600830BE3 /* UIView+BHB.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B7F34D1AC131D600830BE3 /* UIView+BHB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B7F3651AC131D600830BE3 /* UIView+BHB.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B7F34E1AC131D600830BE3 /* UIView+BHB.m */; };
+		F7B7F3671AC131D600830BE3 /* Singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B7F3511AC131D600830BE3 /* Singleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +64,27 @@
 		F7B7F3291AC12DDF00830BE3 /* BHBKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BHBKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B7F32F1AC12DDF00830BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7B7F3301AC12DDF00830BE3 /* BHBKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHBKitTests.m; sourceTree = "<group>"; };
+		F7B7F33B1AC131D600830BE3 /* NSDate+BHB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BHB.h"; sourceTree = "<group>"; };
+		F7B7F33C1AC131D600830BE3 /* NSDate+BHB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BHB.m"; sourceTree = "<group>"; };
+		F7B7F33D1AC131D600830BE3 /* NSJSONSerialization+BHB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+BHB.h"; sourceTree = "<group>"; };
+		F7B7F33E1AC131D600830BE3 /* NSJSONSerialization+BHB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+BHB.m"; sourceTree = "<group>"; };
+		F7B7F33F1AC131D600830BE3 /* NSString+BHB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BHB.h"; sourceTree = "<group>"; };
+		F7B7F3401AC131D600830BE3 /* NSString+BHB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BHB.m"; sourceTree = "<group>"; };
+		F7B7F3411AC131D600830BE3 /* UIBarButtonItem+BHB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BHB.h"; sourceTree = "<group>"; };
+		F7B7F3421AC131D600830BE3 /* UIBarButtonItem+BHB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BHB.m"; sourceTree = "<group>"; };
+		F7B7F3431AC131D600830BE3 /* UIButton+BHB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BHB.h"; sourceTree = "<group>"; };
+		F7B7F3441AC131D600830BE3 /* UIButton+BHB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BHB.m"; sourceTree = "<group>"; };
+		F7B7F3451AC131D600830BE3 /* UIImage+BHB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BHB.h"; sourceTree = "<group>"; };
+		F7B7F3461AC131D600830BE3 /* UIImage+BHB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BHB.m"; sourceTree = "<group>"; };
+		F7B7F3471AC131D600830BE3 /* UIScreen+BHB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+BHB.h"; sourceTree = "<group>"; };
+		F7B7F3481AC131D600830BE3 /* UIScreen+BHB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+BHB.m"; sourceTree = "<group>"; };
+		F7B7F3491AC131D600830BE3 /* UITextField+BHB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BHB.h"; sourceTree = "<group>"; };
+		F7B7F34A1AC131D600830BE3 /* UITextField+BHB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BHB.m"; sourceTree = "<group>"; };
+		F7B7F34B1AC131D600830BE3 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		F7B7F34C1AC131D600830BE3 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		F7B7F34D1AC131D600830BE3 /* UIView+BHB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BHB.h"; sourceTree = "<group>"; };
+		F7B7F34E1AC131D600830BE3 /* UIView+BHB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BHB.m"; sourceTree = "<group>"; };
+		F7B7F3511AC131D600830BE3 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				F7B7F3231AC12DDF00830BE3 /* BHBKit.h */,
+				F7B7F33A1AC131D600830BE3 /* BHBCategorys */,
+				F7B7F34F1AC131D600830BE3 /* BHBCommon */,
 				F7B7F3211AC12DDF00830BE3 /* Supporting Files */,
 			);
 			path = BHBKit;
@@ -102,6 +160,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F7B7F33A1AC131D600830BE3 /* BHBCategorys */ = {
+			isa = PBXGroup;
+			children = (
+				F7B7F33B1AC131D600830BE3 /* NSDate+BHB.h */,
+				F7B7F33C1AC131D600830BE3 /* NSDate+BHB.m */,
+				F7B7F33D1AC131D600830BE3 /* NSJSONSerialization+BHB.h */,
+				F7B7F33E1AC131D600830BE3 /* NSJSONSerialization+BHB.m */,
+				F7B7F33F1AC131D600830BE3 /* NSString+BHB.h */,
+				F7B7F3401AC131D600830BE3 /* NSString+BHB.m */,
+				F7B7F3411AC131D600830BE3 /* UIBarButtonItem+BHB.h */,
+				F7B7F3421AC131D600830BE3 /* UIBarButtonItem+BHB.m */,
+				F7B7F3431AC131D600830BE3 /* UIButton+BHB.h */,
+				F7B7F3441AC131D600830BE3 /* UIButton+BHB.m */,
+				F7B7F3451AC131D600830BE3 /* UIImage+BHB.h */,
+				F7B7F3461AC131D600830BE3 /* UIImage+BHB.m */,
+				F7B7F3471AC131D600830BE3 /* UIScreen+BHB.h */,
+				F7B7F3481AC131D600830BE3 /* UIScreen+BHB.m */,
+				F7B7F3491AC131D600830BE3 /* UITextField+BHB.h */,
+				F7B7F34A1AC131D600830BE3 /* UITextField+BHB.m */,
+				F7B7F34B1AC131D600830BE3 /* UIView+AutoLayout.h */,
+				F7B7F34C1AC131D600830BE3 /* UIView+AutoLayout.m */,
+				F7B7F34D1AC131D600830BE3 /* UIView+BHB.h */,
+				F7B7F34E1AC131D600830BE3 /* UIView+BHB.m */,
+			);
+			path = BHBCategorys;
+			sourceTree = "<group>";
+		};
+		F7B7F34F1AC131D600830BE3 /* BHBCommon */ = {
+			isa = PBXGroup;
+			children = (
+				F7B7F3511AC131D600830BE3 /* Singleton.h */,
+			);
+			path = BHBCommon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -109,7 +202,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B7F3621AC131D600830BE3 /* UIView+AutoLayout.h in Headers */,
+				F7B7F3521AC131D600830BE3 /* NSDate+BHB.h in Headers */,
+				F7B7F35E1AC131D600830BE3 /* UIScreen+BHB.h in Headers */,
+				F7B7F3601AC131D600830BE3 /* UITextField+BHB.h in Headers */,
+				F7B7F3581AC131D600830BE3 /* UIBarButtonItem+BHB.h in Headers */,
 				F7B7F3241AC12DDF00830BE3 /* BHBKit.h in Headers */,
+				F7B7F3541AC131D600830BE3 /* NSJSONSerialization+BHB.h in Headers */,
+				F7B7F3561AC131D600830BE3 /* NSString+BHB.h in Headers */,
+				F7B7F3641AC131D600830BE3 /* UIView+BHB.h in Headers */,
+				F7B7F35A1AC131D600830BE3 /* UIButton+BHB.h in Headers */,
+				F7B7F35C1AC131D600830BE3 /* UIImage+BHB.h in Headers */,
+				F7B7F3671AC131D600830BE3 /* Singleton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +271,9 @@
 					F7B7F3281AC12DDF00830BE3 = {
 						CreatedOnToolsVersion = 6.2;
 					};
+					F7B7F3681AC1341F00830BE3 = {
+						CreatedOnToolsVersion = 6.2;
+					};
 				};
 			};
 			buildConfigurationList = F7B7F3181AC12DDF00830BE3 /* Build configuration list for PBXProject "BHBKit" */;
@@ -183,6 +290,7 @@
 			targets = (
 				F7B7F31D1AC12DDF00830BE3 /* BHBKit */,
 				F7B7F3281AC12DDF00830BE3 /* BHBKitTests */,
+				F7B7F3681AC1341F00830BE3 /* script */,
 			);
 		};
 /* End PBXProject section */
@@ -204,11 +312,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F7B7F36C1AC1342900830BE3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F7B7F3191AC12DDF00830BE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B7F35D1AC131D600830BE3 /* UIImage+BHB.m in Sources */,
+				F7B7F35B1AC131D600830BE3 /* UIButton+BHB.m in Sources */,
+				F7B7F3611AC131D600830BE3 /* UITextField+BHB.m in Sources */,
+				F7B7F3651AC131D600830BE3 /* UIView+BHB.m in Sources */,
+				F7B7F3551AC131D600830BE3 /* NSJSONSerialization+BHB.m in Sources */,
+				F7B7F3631AC131D600830BE3 /* UIView+AutoLayout.m in Sources */,
+				F7B7F35F1AC131D600830BE3 /* UIScreen+BHB.m in Sources */,
+				F7B7F3591AC131D600830BE3 /* UIBarButtonItem+BHB.m in Sources */,
+				F7B7F3531AC131D600830BE3 /* NSDate+BHB.m in Sources */,
+				F7B7F3571AC131D600830BE3 /* NSString+BHB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +509,20 @@
 			};
 			name = Release;
 		};
+		F7B7F36A1AC1341F00830BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7B7F36B1AC1341F00830BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -400,6 +548,14 @@
 			buildConfigurations = (
 				F7B7F3381AC12DDF00830BE3 /* Debug */,
 				F7B7F3391AC12DDF00830BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7B7F3691AC1341F00830BE3 /* Build configuration list for PBXAggregateTarget "script" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B7F36A1AC1341F00830BE3 /* Debug */,
+				F7B7F36B1AC1341F00830BE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
